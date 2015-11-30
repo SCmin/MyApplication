@@ -1,0 +1,43 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/ReReadMenu"
+        android:title="@string/ReRead"
+        app:showAsAction="never"
+        >
+    </item>
+    <item
+        android:id="@+id/DeleteMenu"
+        android:title="@string/Delete"
+        app:showAsAction="never"
+        >
+    </item>
+    <item
+        android:id="@+id/FontSizeMenu"
+        android:title="@string/FontSize"
+        app:showAsAction="never"
+        >
+        <menu>
+            <item
+                android:id="@+id/SizeUp"
+                android:title="@string/BigSize"
+                >
+            </item>
+            <item
+                android:id="@+id/SizeNormal"
+                android:title="@string/MediumSize"
+                >
+            </item>
+            <item
+                android:id="@+id/SizeSmall"
+                android:title="@string/SamllSize"
+                >
+            </item>
+
+        </menu>
+    </item>
+
+</menu>
